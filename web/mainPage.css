@@ -1,0 +1,81 @@
+body{
+    font-family: AppleGothic;
+    background-image: url("1.jpg");
+    background-position-x: center;
+    background-position-y:bottom;
+
+}
+#resultX{
+    background: url("clickX.gif");
+    background-size: 200px;
+    background-position-x:-450px;
+    background-position-y: -200px;
+
+}
+#resultR{
+    background: url("clickR.gif");
+    background-size: 200px;
+    background-position-x:-450px;
+    background-position-y: 200px;
+}
+.hat{
+    color: yellow;
+    border: 2px solid black;
+    background: red;
+    text-align: center;
+    border-radius: 25px;
+    width: 400px;
+    padding: 5px;
+}
+.pickValue{
+    border:2px solid black;
+    border-radius: 25px;
+}
+
+#submit{
+    border: 2px solid black;
+    border-radius:25px;
+    color: yellow;
+    position: absolute;
+    bottom:120px;
+    width: 120px;
+    left: 237px;
+}
+
+.pick{
+    background: red;
+    position: absolute;
+    bottom:145px;
+    border-radius: 25px;
+    border: 2px solid black;
+    width: 90px;
+    height: 260px;
+    padding: 5px;
+    left: 140px;
+}
+.result{
+    font-size:small;
+    text-align: center;
+    background: red;
+    border: 2px solid black;
+    border-radius: 25px;
+    height:80px;
+    width:100px;
+    position: absolute;
+    left:140px;
+    top:310px;
+}
+#checkRDraw{
+    position: absolute;
+    right:195px;
+    top:320px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background: white;
+    color: yellow;
+}
+#result{
+    overflow: auto;
+    max-height: 300px;
+}
+
